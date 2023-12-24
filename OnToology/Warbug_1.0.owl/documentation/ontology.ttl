@@ -1,0 +1,5201 @@
+@prefix : <http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#> .
+
+<http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73> rdf:type owl:Ontology ;
+                                                                                rdfs:comment """This ontology is designed to model the Warburg Institute Catalogue system. For version 0 of the ontology, only the four main classes \"Word, Image, Orientation, and Action\" and their immediate subclasses will be modelled. This is to organize data from the Warburg Catalogue for a data visualization project. In subsequent versions of the ontology, finer grained distinctions will be added.
+
+Version 1.0: Shelfmarks have been added down to three characters for all alphanumerics, but numerical codes have been left out. Future versions of the ontology may include numerical information as data property relations.""" .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#A
+:A rdf:type owl:Class ;
+   rdfs:subClassOf :Orientation ;
+   rdfs:comment "Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AA
+:AA rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AAH
+:AAH rdf:type owl:Class ;
+     rdfs:subClassOf :AA ;
+     rdfs:comment "Sources. 18th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AAI
+:AAI rdf:type owl:Class ;
+     rdfs:subClassOf :AA ;
+     rdfs:comment "General, Logic, Epistemology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AB
+:AB rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Medieval Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABA
+:ABA rdf:type owl:Class ;
+     rdfs:subClassOf :AB ;
+     rdfs:comment "Arabic Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABB
+:ABB rdf:type owl:Class ;
+     rdfs:subClassOf :AB ;
+     rdfs:comment "Scholasticism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABG
+:ABG rdf:type owl:Class ;
+     rdfs:subClassOf :AB ;
+     rdfs:comment "Studies. Jewish Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABH
+:ABH rdf:type owl:Class ;
+     rdfs:subClassOf :AB ;
+     rdfs:comment "Sources. Scholasticism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AC
+:AC rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Renaissance Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACB
+:ACB rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACE
+:ACE rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACH
+:ACH rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "Sources. Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACL
+:ACL rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACM
+:ACM rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACN
+:ACN rdf:type owl:Class ;
+     rdfs:subClassOf :AC ;
+     rdfs:comment "Studies. General & Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AD
+:AD rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Modern Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ADH
+:ADH rdf:type owl:Class ;
+     rdfs:subClassOf :AD ;
+     rdfs:comment "Sources. 17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AF
+:AF rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AFF
+:AFF rdf:type owl:Class ;
+     rdfs:subClassOf :AF ;
+     rdfs:comment "General History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AFI
+:AFI rdf:type owl:Class ;
+     rdfs:subClassOf :AF ;
+     rdfs:comment "Collected Essays" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AG
+:AG rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Jewish & Arabic Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AGH
+:AGH rdf:type owl:Class ;
+     rdfs:subClassOf :AG ;
+     rdfs:comment "Sources. Jewish Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AK
+:AK rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Greek and Roman Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKA
+:AKA rdf:type owl:Class ;
+     rdfs:subClassOf :AK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKF
+:AKF rdf:type owl:Class ;
+     rdfs:subClassOf :AK ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKH
+:AKH rdf:type owl:Class ;
+     rdfs:subClassOf :AK ;
+     rdfs:comment "Sources. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AM
+:AM rdf:type owl:Class ;
+    rdfs:subClassOf :A ;
+    rdfs:comment "Modern Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AME
+:AME rdf:type owl:Class ;
+     rdfs:subClassOf :AM ;
+     rdfs:comment "19th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMF
+:AMF rdf:type owl:Class ;
+     rdfs:subClassOf :AM ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMH
+:AMH rdf:type owl:Class ;
+     rdfs:subClassOf :AM ;
+     rdfs:comment "Sources. 18th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMM
+:AMM rdf:type owl:Class ;
+     rdfs:subClassOf :AM ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Action
+:Action rdf:type owl:Class ;
+        rdfs:comment "4th Floor" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#B
+:B rdf:type owl:Class ;
+   rdfs:subClassOf :Orientation ;
+   rdfs:comment "Western Religions" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BC
+:BC rdf:type owl:Class ;
+    rdfs:subClassOf :B ;
+    rdfs:comment "Christianity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCA
+:BCA rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "History of Dogma" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCB
+:BCB rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Church History. Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCC
+:BCC rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Early Christianity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCD
+:BCD rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "New Testament" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCE
+:BCE rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Christian Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCF
+:BCF rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Bibliographies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCG
+:BCG rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Christianity, Judaism, Paganism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCH
+:BCH rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Concordances. Dictionaries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCI
+:BCI rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Canon Law & Inquisition" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCK
+:BCK rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Eastern Church" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCL
+:BCL rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Gnosticism & Manichaeism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCP
+:BCP rdf:type owl:Class ;
+     rdfs:subClassOf :BC ;
+     rdfs:comment "Monasticism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BE
+:BE rdf:type owl:Class ;
+    rdfs:subClassOf :B ;
+    rdfs:comment "Greco-Roman" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BEE
+:BEE rdf:type owl:Class ;
+     rdfs:subClassOf :BE ;
+     rdfs:comment "Heroic Legends" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BEF
+:BEF rdf:type owl:Class ;
+     rdfs:subClassOf :BE ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BF
+:BF rdf:type owl:Class ;
+    rdfs:subClassOf :B ;
+    rdfs:comment "Comparative Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFA
+:BFA rdf:type owl:Class ;
+     rdfs:subClassOf :BF ;
+     rdfs:comment "Philosophy of Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFC
+:BFC rdf:type owl:Class ;
+     rdfs:subClassOf :BF ;
+     rdfs:comment "Rites & Cults" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFD
+:BFD rdf:type owl:Class ;
+     rdfs:subClassOf :BF ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFF
+:BFF rdf:type owl:Class ;
+     rdfs:subClassOf :BF ;
+     rdfs:comment "Religion and Science" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFR
+:BFR rdf:type owl:Class ;
+     rdfs:subClassOf :BF ;
+     rdfs:comment "Interpretation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BK
+:BK rdf:type owl:Class ;
+    rdfs:subClassOf :B ;
+    rdfs:comment "Teutonic and Slavic" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKB
+:BKB rdf:type owl:Class ;
+     rdfs:subClassOf :BK ;
+     rdfs:comment "Mystery Religions" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKF
+:BKF rdf:type owl:Class ;
+     rdfs:subClassOf :BK ;
+     rdfs:comment "Greek Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKG
+:BKG rdf:type owl:Class ;
+     rdfs:subClassOf :BK ;
+     rdfs:comment "Etruscan and Roman Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BM
+:BM rdf:type owl:Class ;
+    rdfs:subClassOf :B ;
+    rdfs:comment "Christianity since the Reformation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMA
+:BMA rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Causes & Antecedents of the Reformation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMB
+:BMB rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Theology since the Reformation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BME
+:BME rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Luther" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMF
+:BMF rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMH
+:BMH rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Sources, Protestantism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMI
+:BMI rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Early Reformation Period" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BML
+:BML rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Counter Reformation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMM
+:BMM rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Political History of the Reformation Period" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMN
+:BMN rdf:type owl:Class ;
+     rdfs:subClassOf :BM ;
+     rdfs:comment "Melanchthon" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#C
+:C rdf:type owl:Class ;
+   rdfs:subClassOf :Image ;
+   rdfs:comment "Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CA
+:CA rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Aesthetics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAC
+:CAC rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Categories of Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAD
+:CAD rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Psychology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAF
+:CAF rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Contemporary Aesthetics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAI
+:CAI rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Visual Arts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAN
+:CAN rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAO
+:CAO rdf:type owl:Class ;
+     rdfs:subClassOf :CA ;
+     rdfs:comment "Theory of Style" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CB
+:CB rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "French Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBA
+:CBA rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "15th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBB
+:CBB rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "Painting Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBD
+:CBD rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBE
+:CBE rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "Romanesque" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBF
+:CBF rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBH
+:CBH rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "France & Burgundy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBM
+:CBM rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBN
+:CBN rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "Painting General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBO
+:CBO rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "Sculpture General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBP
+:CBP rdf:type owl:Class ;
+     rdfs:subClassOf :CB ;
+     rdfs:comment "Architecture 16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CC
+:CC rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Early Christian & Byzantine Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCB
+:CCB rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCF
+:CCF rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Handbooks & Collected Articles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCG
+:CCG rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "East Christian Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCH
+:CCH rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Byzantine" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCI
+:CCI rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Merovingian & Carolingian Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCM
+:CCM rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "British Isles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCN
+:CCN rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCP
+:CCP rdf:type owl:Class ;
+     rdfs:subClassOf :CC ;
+     rdfs:comment "Byzantine Art. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CD
+:CD rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Flemish and Dutch Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDA
+:CDA rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "15th -16th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDB
+:CDB rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDD
+:CDD rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Sculpture. 16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDE
+:CDE rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Sculpture, General & Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDF
+:CDF rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDH
+:CDH rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDL
+:CDL rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Architecture General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDM
+:CDM rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "17th century General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDN
+:CDN rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Painting, General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDP
+:CDP rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "Architecture. 16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CE
+:CE rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "German Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEA
+:CEA rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "14th Century: General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEB
+:CEB rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CED
+:CED rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "1— Sculpture Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEE
+:CEE rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEF
+:CEF rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEH
+:CEH rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEK
+:CEK rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Scandinavian Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEL
+:CEL rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Architecture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEN
+:CEN rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Painting General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEO
+:CEO rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Sclupture. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEP
+:CEP rdf:type owl:Class ;
+     rdfs:subClassOf :CE ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CF
+:CF rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "General Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFA
+:CFA rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFB
+:CFB rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Mediaeval" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFC
+:CFC rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Anniversary volumes" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFF
+:CFF rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Architecture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFH
+:CFH rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFI
+:CFI rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Architectural Styles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFM
+:CFM rdf:type owl:Class ;
+     rdfs:subClassOf :CD ;
+     rdfs:comment "17th century Dutch" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFN
+:CFN rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Painting" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFO
+:CFO rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Scultpure" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFP
+:CFP rdf:type owl:Class ;
+     rdfs:subClassOf :CF ;
+     rdfs:comment "Congresses" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CG
+:CG rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Applied Arts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGA
+:CGA rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Ornament" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGB
+:CGB rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Cassoni" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGC
+:CGC rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Stained Glass" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGD
+:CGD rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Town Planning" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGE
+:CGE rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Furniture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGF
+:CGF rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGH
+:CGH rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGI
+:CGI rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGK
+:CGK rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Leather Work" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGL
+:CGL rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Goldsmith's Work" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGN
+:CGN rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Ivory" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGO
+:CGO rdf:type owl:Class ;
+     rdfs:subClassOf :CG ;
+     rdfs:comment "Engraved Gems" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CH
+:CH rdf:type owl:Class ;
+    rdfs:subClassOf :C ,
+                    :CP ;
+    rdfs:comment "Illuminated Manuscripts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHB
+:CHB rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "France & Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHE
+:CHE rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHF
+:CHF rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHG
+:CHG rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Byzantium" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHH
+:CHH rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Medieaeval" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHI
+:CHI rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "The West: Early Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHK
+:CHK rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Latin Classical Manuscripts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHL
+:CHL rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHM
+:CHM rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHN
+:CHN rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHP
+:CHP rdf:type owl:Class ;
+     rdfs:subClassOf :CH ;
+     rdfs:comment "Collections" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CI
+:CI rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Art Interpretation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIB
+:CIB rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIC
+:CIC rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "15th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIF
+:CIF rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "History of Aesthetics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIH
+:CIH rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIK
+:CIK rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIM
+:CIM rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "18th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIO
+:CIO rdf:type owl:Class ;
+     rdfs:subClassOf :CI ;
+     rdfs:comment "Development of Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CK
+:CK rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Survival of Ancient Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKA
+:CKA rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "History of Egyptology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKC
+:CKC rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Drawings of Ancient Monuments" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKD
+:CKD rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Collections of Antiquities" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKF
+:CKF rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Survival of Classical Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKK
+:CKK rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Destruction & Preservation of Ancient Monuments" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKN
+:CKN rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Archaeological Compendia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKO
+:CKO rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Classical Subjects in Modern Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKP
+:CKP rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "Topography: Rome" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKR
+:CKR rdf:type owl:Class ;
+     rdfs:subClassOf :CK ;
+     rdfs:comment "History of Etruscology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CL
+:CL rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Spanish Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLA
+:CLA rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "15th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLB
+:CLB rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLD
+:CLD rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Sculpture Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLF
+:CLF rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLH
+:CLH rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Spain & Portugal" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLL
+:CLL rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Architecture. General & Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLM
+:CLM rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLN
+:CLN rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Painting" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLO
+:CLO rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Sculpture General & Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLP
+:CLP rdf:type owl:Class ;
+     rdfs:subClassOf :CL ;
+     rdfs:comment "Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CM
+:CM rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "British Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMB
+:CMB rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "Painting Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMC
+:CMC rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "16th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMD
+:CMD rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "16th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMF
+:CMF rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMH
+:CMH rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "Great Britain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CML
+:CML rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "Architecture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMM
+:CMM rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "18th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMO
+:CMO rdf:type owl:Class ;
+     rdfs:subClassOf :CM ;
+     rdfs:comment "Sculpture Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CN
+:CN rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Italian Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNA
+:CNA rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Painting: Renaissance Schools" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNB
+:CNB rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Painting. Middle Ages." .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CND
+:CND rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "14th Century. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNF
+:CNF rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Italian Art General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNH
+:CNH rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNI
+:CNI rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Architecture. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNL
+:CNL rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNM
+:CNM rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNN
+:CNN rdf:type owl:Class ;
+     rdfs:subClassOf :CN ;
+     rdfs:comment "Painting. General." .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CO
+:CO rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Iconography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COC
+:COC rdf:type owl:Class ;
+     rdfs:subClassOf :CO ;
+     rdfs:comment "Human Figure" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COD
+:COD rdf:type owl:Class ;
+     rdfs:subClassOf :CO ;
+     rdfs:comment "Costume" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COF
+:COF rdf:type owl:Class ;
+     rdfs:subClassOf :CO ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COH
+:COH rdf:type owl:Class ;
+     rdfs:subClassOf :CO ;
+     rdfs:comment "Landscape" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COK
+:COK rdf:type owl:Class ;
+     rdfs:subClassOf :CO ;
+     rdfs:comment "Bible: Old Testament" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CP
+:CP rdf:type owl:Class ;
+    rdfs:subClassOf :C ;
+    rdfs:comment "Topography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPA
+:CPA rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPB
+:CPB rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPC
+:CPC rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "United States" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPE
+:CPE rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPF
+:CPF rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Holland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPG
+:CPG rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Russia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPI
+:CPI rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Belgium & Luxembourg" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPK
+:CPK rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Balkans" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPL
+:CPL rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPM
+:CPM rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "England & Wales" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPN
+:CPN rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPO
+:CPO rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Switzerland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPP
+:CPP rdf:type owl:Class ;
+     rdfs:subClassOf :CP ;
+     rdfs:comment "Austria" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CR
+:CR rdf:type owl:Class ;
+    rdfs:subClassOf :Image ;
+    rdfs:comment "Modern Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRA
+:CRA rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Exhibitions & Collections" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRB
+:CRB rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRC
+:CRC rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Architecture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRD
+:CRD rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Holland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRE
+:CRE rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRF
+:CRF rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRG
+:CRG rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Posters" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRI
+:CRI rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Belgium" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRK
+:CRK rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRL
+:CRL rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Spain & South America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRM
+:CRM rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "England - United States" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRN
+:CRN rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRO
+:CRO rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Russia & Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRP
+:CRP rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Photography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRR
+:CRR rdf:type owl:Class ;
+     rdfs:subClassOf :CR ;
+     rdfs:comment "Applied Arts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#D
+:D rdf:type owl:Class ;
+   rdfs:subClassOf :Action ;
+   rdfs:comment "Society and Culture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DA
+:DA rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Psychology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAA
+:DAA rdf:type owl:Class ;
+     rdfs:subClassOf :DA ;
+     rdfs:comment "Symbol" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAC
+:DAC rdf:type owl:Class ;
+     rdfs:subClassOf :DA ;
+     rdfs:comment "Psychopathology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAD
+:DAD rdf:type owl:Class ;
+     rdfs:subClassOf :DA ;
+     rdfs:comment "Apperception" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAF
+:DAF rdf:type owl:Class ;
+     rdfs:subClassOf :DA ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAN
+:DAN rdf:type owl:Class ;
+     rdfs:subClassOf :DA ;
+     rdfs:comment "Animal Psychology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DB
+:DB rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "History of Music" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBA
+:DBA rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Music Theory" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBB
+:DBB rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBC
+:DBC rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBD
+:DBD rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Africa, Oceania, Americas" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBE
+:DBE rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBF
+:DBF rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "History of Music. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBG
+:DBG rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBH
+:DBH rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Literary Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBI
+:DBI rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "European Music since the Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBK
+:DBK rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Greece & Rome" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBL
+:DBL rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBM
+:DBM rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBN
+:DBN rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBP
+:DBP rdf:type owl:Class ;
+     rdfs:subClassOf :DB ;
+     rdfs:comment "Arabic and Hebrew Music" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DC
+:DC rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Festivals" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCA
+:DCA rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCB
+:DCB rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCD
+:DCD rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCE
+:DCE rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCH
+:DCH rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCI
+:DCI rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Scandinavia, Eastern Europe, Russia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCK
+:DCK rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Studies. Festivals. Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCL
+:DCL rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCM
+:DCM rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCN
+:DCN rdf:type owl:Class ;
+     rdfs:subClassOf :DC ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DD
+:DD rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Folklore" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DDD
+:DDD rdf:type owl:Class ;
+     rdfs:subClassOf :DD ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DDF
+:DDF rdf:type owl:Class ;
+     rdfs:subClassOf :DD ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DE
+:DE rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Theatre" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEA
+:DEA rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Psychology of the Theare" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEB
+:DEB rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "French Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEC
+:DEC rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Film" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DED
+:DED rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Flemish & Dutch Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEE
+:DEE rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "German Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEF
+:DEF rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEG
+:DEG rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Asian Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEH
+:DEH rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Texts. Treatises" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEI
+:DEI rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Medieval Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEK
+:DEK rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Classical Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEL
+:DEL rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Spanish Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEM
+:DEM rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "English Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEN
+:DEN rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Italian Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEO
+:DEO rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "Russian Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEP
+:DEP rdf:type owl:Class ;
+     rdfs:subClassOf :DE ;
+     rdfs:comment "American Stage" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DF
+:DF rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Technology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFC
+:DFC rdf:type owl:Class ;
+     rdfs:subClassOf :DF ;
+     rdfs:comment "Middle Ages & Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFF
+:DFF rdf:type owl:Class ;
+     rdfs:subClassOf :DF ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFG
+:DFG rdf:type owl:Class ;
+     rdfs:subClassOf :DF ;
+     rdfs:comment "Islam" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFH
+:DFH rdf:type owl:Class ;
+     rdfs:subClassOf :DF ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFK
+:DFK rdf:type owl:Class ;
+     rdfs:subClassOf :DF ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DG
+:DG rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Transport" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGF
+:DGF rdf:type owl:Class ;
+     rdfs:subClassOf :DG ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGI
+:DGI rdf:type owl:Class ;
+     rdfs:subClassOf :DG ;
+     rdfs:comment "Air Communications" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGO
+:DGO rdf:type owl:Class ;
+     rdfs:subClassOf :DG ;
+     rdfs:comment "Postal Communications" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGP
+:DGP rdf:type owl:Class ;
+     rdfs:subClassOf :DG ;
+     rdfs:comment "Sea Communications" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DH
+:DH rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Sociology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHA
+:DHA rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Method" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHC
+:DHC rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Pacifism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHD
+:DHD rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Racialism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHF
+:DHF rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHI
+:DHI rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Imperialism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHO
+:DHO rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Militarism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHP
+:DHP rdf:type owl:Class ;
+     rdfs:subClassOf :DH ;
+     rdfs:comment "Politics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DI
+:DI rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Public Opinion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIC
+:DIC rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "Advertising" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DID
+:DID rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "Scandinavian" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIE
+:DIE rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "German Newspapers" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIF
+:DIF rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIG
+:DIG rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "East European" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DII
+:DII rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "War Propaganda" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIM
+:DIM rdf:type owl:Class ;
+     rdfs:subClassOf :DI ;
+     rdfs:comment "English & American Newspapers" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DK
+:DK rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKA
+:DKA rdf:type owl:Class ;
+     rdfs:subClassOf :DK ;
+     rdfs:comment "Legal Theory" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKC
+:DKC rdf:type owl:Class ;
+     rdfs:subClassOf :DK ;
+     rdfs:comment "Symbolism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKD
+:DKD rdf:type owl:Class ;
+     rdfs:subClassOf :DK ;
+     rdfs:comment "Comparative Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKK
+:DKK rdf:type owl:Class ;
+     rdfs:subClassOf :DK ;
+     rdfs:comment "Survival of Roman Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DL
+:DL rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Anthropology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLC
+:DLC rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "America. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLF
+:DLF rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLG
+:DLG rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLI
+:DLI rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "Africa" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLL
+:DLL rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "Australia & Oceania" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLN
+:DLN rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "Origins of Culture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLP
+:DLP rdf:type owl:Class ;
+     rdfs:subClassOf :DL ;
+     rdfs:comment "Geography of Culture" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DM
+:DM rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Trade" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMA
+:DMA rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMC
+:DMC rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMD
+:DMD rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "Primitive Trade" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMF
+:DMF rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "History of Trade" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMH
+:DMH rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMI
+:DMI rdf:type owl:Class ;
+     rdfs:subClassOf :DM ;
+     rdfs:comment "Middle Ages & Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DN
+:DN rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Position of Women" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNB
+:DNB rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNC
+:DNC rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DND
+:DND rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Africa, Americas, Oceania" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNF
+:DNF rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNG
+:DNG rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "The East" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNH
+:DNH rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNK
+:DNK rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNM
+:DNM rdf:type owl:Class ;
+     rdfs:subClassOf :DN ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DP
+:DP rdf:type owl:Class ;
+    rdfs:subClassOf :D ;
+    rdfs:comment "Political Theory" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPA
+:DPA rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Ideal Rulers" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPB
+:DPB rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPC
+:DPC rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPD
+:DPD rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPE
+:DPE rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPF
+:DPF rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPG
+:DPG rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Russia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPH
+:DPH rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPI
+:DPI rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPK
+:DPK rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPL
+:DPL rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPM
+:DPM rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPN
+:DPN rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPP
+:DPP rdf:type owl:Class ;
+     rdfs:subClassOf :DP ;
+     rdfs:comment "Utopias" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#E
+:E rdf:type owl:Class ;
+   rdfs:subClassOf :Word ;
+   rdfs:comment "Language and Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAA
+:EAA rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Poetics. Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAB
+:EAB rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Language & Myth" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAC
+:EAC rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Rhythm" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAD
+:EAD rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Sociology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAE
+:EAE rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Language. Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAF
+:EAF rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Literature General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAL
+:EAL rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Language. History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAN
+:EAN rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "Poetics. Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EB
+:EB rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "French Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBB
+:EBB rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBC
+:EBC rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBF
+:EBF rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBH
+:EBH rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "Texts. Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBL
+:EBL rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBM
+:EBM rdf:type owl:Class ;
+     rdfs:subClassOf :EB ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EC
+:EC rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Slavonic & Eastern European" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECH
+:ECH rdf:type owl:Class ;
+     rdfs:subClassOf :EC ;
+     rdfs:comment "Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECL
+:ECL rdf:type owl:Class ;
+     rdfs:subClassOf :EC ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECM
+:ECM rdf:type owl:Class ;
+     rdfs:subClassOf :EC ;
+     rdfs:comment "Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ED
+:ED rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Scandinavian" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDD
+:EDD rdf:type owl:Class ;
+     rdfs:subClassOf :ED ;
+     rdfs:comment "Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDH
+:EDH rdf:type owl:Class ;
+     rdfs:subClassOf :ED ;
+     rdfs:comment "Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDL
+:EDL rdf:type owl:Class ;
+     rdfs:subClassOf :ED ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EE
+:EE rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "German" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEB
+:EEB rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEC
+:EEC rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEF
+:EEF rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEH
+:EEH rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEI
+:EEI rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "History of German - Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEL
+:EEL rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEM
+:EEM rdf:type owl:Class ;
+     rdfs:subClassOf :EE ;
+     rdfs:comment "Studies. 17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EF
+:EF rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Dutch" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFB
+:EFB rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFC
+:EFC rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFF
+:EFF rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFH
+:EFH rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFL
+:EFL rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFM
+:EFM rdf:type owl:Class ;
+     rdfs:subClassOf :EF ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EG
+:EG rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Hellenistic Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EGH
+:EGH rdf:type owl:Class ;
+     rdfs:subClassOf :EG ;
+     rdfs:comment "Poetry" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EIF
+:EIF rdf:type owl:Class ;
+     rdfs:subClassOf :E ;
+     rdfs:comment "World Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EK
+:EK rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Greek Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKF
+:EKF rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKG
+:EKG rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKH
+:EKH rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "Anthologies. Fragments" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKK
+:EKK rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKL
+:EKL rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "Greek Language. Grammar. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKP
+:EKP rdf:type owl:Class ;
+     rdfs:subClassOf :EK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EL
+:EL rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Spanish & Portuguese Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELB
+:ELB rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELC
+:ELC rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "16th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELF
+:ELF rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELH
+:ELH rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELL
+:ELL rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELM
+:ELM rdf:type owl:Class ;
+     rdfs:subClassOf :EL ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EM
+:EM rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "English" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMB
+:EMB rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "Old English" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMC
+:EMC rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "Tudor" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMD
+:EMD rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "American Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMF
+:EMF rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMH
+:EMH rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "Anthologies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EML
+:EML rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMM
+:EMM rdf:type owl:Class ;
+     rdfs:subClassOf :EM ;
+     rdfs:comment "Augustan" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EN
+:EN rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Italian Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENB
+:ENB rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "Before Dante" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENC
+:ENC rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "14th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENF
+:ENF rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "General: Italian Literature: Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENH
+:ENH rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "Anthologies & Collections" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENI
+:ENI rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "Anniversary Volumes" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENM
+:ENM rdf:type owl:Class ;
+     rdfs:subClassOf :EN ;
+     rdfs:comment "Tasso" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EP
+:EP rdf:type owl:Class ;
+    rdfs:subClassOf :E ;
+    rdfs:comment "Roman Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EPH
+:EPH rdf:type owl:Class ;
+     rdfs:subClassOf :EP ;
+     rdfs:comment "Anthologies. Fragments" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EPL
+:EPL rdf:type owl:Class ;
+     rdfs:subClassOf :EP ;
+     rdfs:comment "Grammar. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#F
+:F rdf:type owl:Class ;
+   rdfs:subClassOf :Orientation ;
+   rdfs:comment "Magic & Science" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FA
+:FA rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Astrology and Astronomy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAA
+:FAA rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Old Testament" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAB
+:FAB rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAC
+:FAC rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "14th-16th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAF
+:FAF rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAG
+:FAG rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Archaeoastronomy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAH
+:FAH rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Sources Babylonian" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAI
+:FAI rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "History of Astrology & Astronomy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAK
+:FAK rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Greece & Rome" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAM
+:FAM rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "17th-20th century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAN
+:FAN rdf:type owl:Class ;
+     rdfs:subClassOf :FA ;
+     rdfs:comment "Time Measuring" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FB
+:FB rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Magic" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBA
+:FBA rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Scandinavia & Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBB
+:FBB rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBC
+:FBC rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Middle Ages & Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBD
+:FBD rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Africa, Americas, Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBE
+:FBE rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBF
+:FBF rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBG
+:FBG rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Antiquity & Near East" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBH
+:FBH rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Sources General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBI
+:FBI rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBK
+:FBK rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Greek & Roman" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBM
+:FBM rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBN
+:FBN rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBP
+:FBP rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "Studies Islam" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBR
+:FBR rdf:type owl:Class ;
+     rdfs:subClassOf :FB ;
+     rdfs:comment "USA" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FC
+:FC rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Magical Objects" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCB
+:FCB rdf:type owl:Class ;
+     rdfs:subClassOf :FC ;
+     rdfs:comment "Amulets & Magic Stones" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCD
+:FCD rdf:type owl:Class ;
+     rdfs:subClassOf :FC ;
+     rdfs:comment "Studies The Evil Eye" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCH
+:FCH rdf:type owl:Class ;
+     rdfs:subClassOf :FC ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FD
+:FD rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Sorcery and Secret Societies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDB
+:FDB rdf:type owl:Class ;
+     rdfs:subClassOf :FD ;
+     rdfs:comment "Studies Sorcery" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDD
+:FDD rdf:type owl:Class ;
+     rdfs:subClassOf :FD ;
+     rdfs:comment "Freemasonry" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDH
+:FDH rdf:type owl:Class ;
+     rdfs:subClassOf :FD ;
+     rdfs:comment "Sources Sorcery" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FE
+:FE rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "History of Medicine" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEA
+:FEA rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Jewish" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEB
+:FEB rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEC
+:FEC rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Western. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FED
+:FED rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Folk" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEE
+:FEE rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEF
+:FEF rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEG
+:FEG rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Oriental" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEH
+:FEH rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Sources Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEI
+:FEI rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Astrological Medicine" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEK
+:FEK rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Greek, Roman & Hellenistic" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEL
+:FEL rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEM
+:FEM rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEN
+:FEN rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEO
+:FEO rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Switzerland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEP
+:FEP rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Arabic" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FER
+:FER rdf:type owl:Class ;
+     rdfs:subClassOf :FE ;
+     rdfs:comment "Netherlands" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FF
+:FF rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Natural Science" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFB
+:FFB rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFF
+:FFF rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFG
+:FFG rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Islam" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFH
+:FFH rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFK
+:FFK rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFM
+:FFM rdf:type owl:Class ;
+     rdfs:subClassOf :FF ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FG
+:FG rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Alchemy and Chemistry" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGB
+:FGB rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGD
+:FGD rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Asian" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGF
+:FGF rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGG
+:FGG rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Arabic & Jewish" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGH
+:FGH rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGK
+:FGK rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Greek & Roman" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGM
+:FGM rdf:type owl:Class ;
+     rdfs:subClassOf :FG ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FH
+:FH rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Prophecy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHB
+:FHB rdf:type owl:Class ;
+     rdfs:subClassOf :FH ;
+     rdfs:comment "Antichrist" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHH
+:FHH rdf:type owl:Class ;
+     rdfs:subClassOf :FH ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHI
+:FHI rdf:type owl:Class ;
+     rdfs:subClassOf :FH ;
+     rdfs:comment "Studies Eschatology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHO
+:FHO rdf:type owl:Class ;
+     rdfs:subClassOf :FH ;
+     rdfs:comment "Prophecy & World War" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHP
+:FHP rdf:type owl:Class ;
+     rdfs:subClassOf :FH ;
+     rdfs:comment "Myth of the Returning Emperor" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FI
+:FI rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Cosmology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FIF
+:FIF rdf:type owl:Class ;
+     rdfs:subClassOf :FI ;
+     rdfs:comment "Studies Cosmology & Natural Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FIH
+:FIH rdf:type owl:Class ;
+     rdfs:subClassOf :FI ;
+     rdfs:comment "Sources. Myths" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FM
+:FM rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Divination" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMA
+:FMA rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Fortune Telling Books & Games" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FME
+:FME rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Augury" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMF
+:FMF rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMH
+:FMH rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Sources. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMI
+:FMI rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Hydromancy, Geomancy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMN
+:FMN rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Dream Interpretation" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMO
+:FMO rdf:type owl:Class ;
+     rdfs:subClassOf :FM ;
+     rdfs:comment "Monsters" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FN
+:FN rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Mathematics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNA
+:FNA rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Studies. Philosophy of Mathematics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNC
+:FNC rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Medieval" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNF
+:FNF rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNG
+:FNG rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Islam" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNH
+:FNH rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNI
+:FNI rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Number Symbolism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNK
+:FNK rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Antiquity" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNN
+:FNN rdf:type owl:Class ;
+     rdfs:subClassOf :FN ;
+     rdfs:comment "Renaissance & Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FO
+:FO rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Zoology, Botany, Pharmacy, Mineralogy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOB
+:FOB rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Mineralogy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOF
+:FOF rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Studies Biology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOG
+:FOG rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Pharmacy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOH
+:FOH rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Sources Zoology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOM
+:FOM rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Botany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FON
+:FON rdf:type owl:Class ;
+     rdfs:subClassOf :FO ;
+     rdfs:comment "Zoology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FP
+:FP rdf:type owl:Class ;
+    rdfs:subClassOf :F ;
+    rdfs:comment "Geography, Exploration, Cartography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPA
+:FPA rdf:type owl:Class ;
+     rdfs:subClassOf :FP ;
+     rdfs:comment "Cartography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPH
+:FPH rdf:type owl:Class ;
+     rdfs:subClassOf :FP ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPI
+:FPI rdf:type owl:Class ;
+     rdfs:subClassOf :FP ;
+     rdfs:comment "Studies History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPP
+:FPP rdf:type owl:Class ;
+     rdfs:subClassOf :FP ;
+     rdfs:comment "Exploration" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#G
+:G rdf:type owl:Class ;
+   rdfs:subClassOf :Orientation ;
+   rdfs:comment "Eastern Religions" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GA
+:GA rdf:type owl:Class ;
+    rdfs:subClassOf :G ;
+    rdfs:comment "Islam" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAB
+:GAB rdf:type owl:Class ;
+     rdfs:subClassOf :GA ;
+     rdfs:comment "Studies. Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAG
+:GAG rdf:type owl:Class ;
+     rdfs:subClassOf :GA ;
+     rdfs:comment "Islam & Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAH
+:GAH rdf:type owl:Class ;
+     rdfs:subClassOf :GA ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAK
+:GAK rdf:type owl:Class ;
+     rdfs:subClassOf :GA ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GC
+:GC rdf:type owl:Class ;
+    rdfs:subClassOf :G ;
+    rdfs:comment "China and Japan" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCB
+:GCB rdf:type owl:Class ;
+     rdfs:subClassOf :GC ;
+     rdfs:comment "Studies. Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCH
+:GCH rdf:type owl:Class ;
+     rdfs:subClassOf :GC ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCK
+:GCK rdf:type owl:Class ;
+     rdfs:subClassOf :GC ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GD
+:GD rdf:type owl:Class ;
+    rdfs:subClassOf :G ;
+    rdfs:comment "South and Central Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDB
+:GDB rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "Studies. Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDC
+:GDC rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "Central Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDG
+:GDG rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "Hellenism in India" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDH
+:GDH rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDK
+:GDK rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDL
+:GDL rdf:type owl:Class ;
+     rdfs:subClassOf :GD ;
+     rdfs:comment "South East Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEB
+:GEB rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEH
+:GEH rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Persia. Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEK
+:GEK rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GIF
+:GIF rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKA
+:GKA rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Ethiopia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKC
+:GKC rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Arabic (Pre-Islamic)" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKD
+:GKD rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Phoenicia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKE
+:GKE rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Syria. Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKF
+:GKF rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKH
+:GKH rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Hittites" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKI
+:GKI rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Asia Minor" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKP
+:GKP rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Armenia & Georgia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GLH
+:GLH rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Egypt. Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GLK
+:GLK rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GM
+:GM rdf:type owl:Class ;
+    rdfs:subClassOf :G ;
+    rdfs:comment "Judaism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMB
+:GMB rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Religious History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GME
+:GME rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMF
+:GMF rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Judaims: Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMG
+:GMG rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Judaism & the Religions of the Ancient World" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMK
+:GMK rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Jewish History. Ancient Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GML
+:GML rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Hebrew Language" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMM
+:GMM rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "Modern Judaism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMN
+:GMN rdf:type owl:Class ;
+     rdfs:subClassOf :GM ;
+     rdfs:comment "History of the Jews. Medieval & Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNB
+:GNB rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNH
+:GNH rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "Assyria and Babylonia. Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNK
+:GNK rdf:type owl:Class ;
+     rdfs:subClassOf :G ;
+     rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GP
+:GP rdf:type owl:Class ;
+    rdfs:subClassOf :G ;
+    rdfs:comment "Turkey" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPE
+:GPE rdf:type owl:Class ;
+     rdfs:subClassOf :GA ,
+                     :GP ;
+     rdfs:comment "Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPF
+:GPF rdf:type owl:Class ;
+     rdfs:subClassOf :GA ,
+                     :GP ;
+     rdfs:comment "Studies. History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPH
+:GPH rdf:type owl:Class ;
+     rdfs:subClassOf :GA ,
+                     :GP ;
+     rdfs:comment "Turkey. Sources. History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#H
+:H rdf:type owl:Class ;
+   rdfs:subClassOf :Action ;
+   rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HA
+:HA rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Historiography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAB
+:HAB rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Studies France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAD
+:HAD rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Netherlands" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAE
+:HAE rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAF
+:HAF rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAG
+:HAG rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "The East" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAH
+:HAH rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Texts. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAK
+:HAK rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Greece" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAL
+:HAL rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAM
+:HAM rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAN
+:HAN rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAP
+:HAP rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HB
+:HB rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "French History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBB
+:HBB rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBC
+:HBC rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "15th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBF
+:HBF rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBH
+:HBH rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBM
+:HBM rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBP
+:HBP rdf:type owl:Class ;
+     rdfs:subClassOf :HB ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HC
+:HC rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "American History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCB
+:HCB rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Discovery, Conquest" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCC
+:HCC rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Mexico, Spanish Armada" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCF
+:HCF rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCH
+:HCH rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCL
+:HCL rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "South America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCM
+:HCM rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Modern America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCP
+:HCP rdf:type owl:Class ;
+     rdfs:subClassOf :HC ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HD
+:HD rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Belgian History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDC
+:HDC rdf:type owl:Class ;
+     rdfs:subClassOf :HD ;
+     rdfs:comment "Burgundy in the 15th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDF
+:HDF rdf:type owl:Class ;
+     rdfs:subClassOf :HD ;
+     rdfs:comment "Studies. History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDH
+:HDH rdf:type owl:Class ;
+     rdfs:subClassOf :HD ;
+     rdfs:comment "Sources. Burgundy & Belgium" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HE
+:HE rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "German History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEA
+:HEA rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Historiography of the Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEB
+:HEB rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEC
+:HEC rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Local History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HED
+:HED rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEF
+:HEF rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEH
+:HEH rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Sources. Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEK
+:HEK rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Earliest Period" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEM
+:HEM rdf:type owl:Class ;
+     rdfs:subClassOf :HE ;
+     rdfs:comment "Modern History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HF
+:HF rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Dutch History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFF
+:HFF rdf:type owl:Class ;
+     rdfs:subClassOf :HF ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFH
+:HFH rdf:type owl:Class ;
+     rdfs:subClassOf :HF ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFM
+:HFM rdf:type owl:Class ;
+     rdfs:subClassOf :HF ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFP
+:HFP rdf:type owl:Class ;
+     rdfs:subClassOf :HF ;
+     rdfs:comment "Flemish & Dutch Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HG
+:HG rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Byzantine History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGB
+:HGB rdf:type owl:Class ;
+     rdfs:subClassOf :HG ;
+     rdfs:comment "Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGH
+:HGH rdf:type owl:Class ;
+     rdfs:subClassOf :HG ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGK
+:HGK rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "History of Hellenism" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGP
+:HGP rdf:type owl:Class ;
+     rdfs:subClassOf :HG ;
+     rdfs:comment "Slavonic and Eastern European Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HI
+:HI rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Scandinavian History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HIF
+:HIF rdf:type owl:Class ;
+     rdfs:subClassOf :HI ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HK
+:HK rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Greek History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKD
+:HKD rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKE
+:HKE rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Rhetoric" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKF
+:HKF rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Ancient History. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKH
+:HKH rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKK
+:HKK rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKM
+:HKM rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Studies Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKN
+:HKN rdf:type owl:Class ;
+     rdfs:subClassOf :HK ;
+     rdfs:comment "Epistolography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HL
+:HL rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Spanish History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLB
+:HLB rdf:type owl:Class ;
+     rdfs:subClassOf :HL ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLC
+:HLC rdf:type owl:Class ;
+     rdfs:subClassOf :HL ;
+     rdfs:comment "Spain under the Hapsburgs" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLF
+:HLF rdf:type owl:Class ;
+     rdfs:subClassOf :HL ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLH
+:HLH rdf:type owl:Class ;
+     rdfs:subClassOf :HL ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLP
+:HLP rdf:type owl:Class ;
+     rdfs:subClassOf :HL ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HM
+:HM rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "British History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMB
+:HMB rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMC
+:HMC rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "Tudors" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMF
+:HMF rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "Studies General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMH
+:HMH rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMM
+:HMM rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "17th Century" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMP
+:HMP rdf:type owl:Class ;
+     rdfs:subClassOf :HM ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HN
+:HN rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Italian History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNA
+:HNA rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Southern Italy & Sicily" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNB
+:HNB rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Parma" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNC
+:HNC rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Rome" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HND
+:HND rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Milan" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNE
+:HNE rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Lombardy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNF
+:HNF rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNG
+:HNG rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Tuscany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNH
+:HNH rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Sources. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNI
+:HNI rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Genoa" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNL
+:HNL rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Venice" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNM
+:HNM rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Unification of Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNN
+:HNN rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNO
+:HNO rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Ferrara" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNP
+:HNP rdf:type owl:Class ;
+     rdfs:subClassOf :HN ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HO
+:HO rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Swiss History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOB
+:HOB rdf:type owl:Class ;
+     rdfs:subClassOf :HO ;
+     rdfs:comment "Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOC
+:HOC rdf:type owl:Class ;
+     rdfs:subClassOf :HO ;
+     rdfs:comment "Modern Times" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOF
+:HOF rdf:type owl:Class ;
+     rdfs:subClassOf :HO ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOH
+:HOH rdf:type owl:Class ;
+     rdfs:subClassOf :HO ;
+     rdfs:comment "Sources" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOP
+:HOP rdf:type owl:Class ;
+     rdfs:subClassOf :HO ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HP
+:HP rdf:type owl:Class ;
+    rdfs:subClassOf :H ;
+    rdfs:comment "Roman History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPD
+:HPD rdf:type owl:Class ;
+     rdfs:subClassOf :HP ;
+     rdfs:comment "Law" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPE
+:HPE rdf:type owl:Class ;
+     rdfs:subClassOf :HP ;
+     rdfs:comment "Rhetoric" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPH
+:HPH rdf:type owl:Class ;
+     rdfs:subClassOf :HP ;
+     rdfs:comment "Source Inscriptions" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPK
+:HPK rdf:type owl:Class ;
+     rdfs:subClassOf :HP ;
+     rdfs:comment "Studies. History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPM
+:HPM rdf:type owl:Class ;
+     rdfs:subClassOf :HP ;
+     rdfs:comment "Economic History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRB
+:HRB rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Medieval History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRF
+:HRF rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "World History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRL
+:HRL rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Collected Essays" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRM
+:HRM rdf:type owl:Class ;
+     rdfs:subClassOf :HA ;
+     rdfs:comment "Modern History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Image
+:Image rdf:type owl:Class ;
+       rdfs:comment "1st Floor and Basement" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#K
+:K rdf:type owl:Class ;
+   rdfs:subClassOf :Image ;
+   rdfs:comment "Ancient Art & Archaeology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KD
+:KD rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "African, Oceanian, American Art. Prehistoric Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KEF
+:KEF rdf:type owl:Class ;
+     rdfs:subClassOf :K ;
+     rdfs:comment "Migration Period" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KF
+:KF rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Classical Archaeology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KFF
+:KFF rdf:type owl:Class ;
+     rdfs:subClassOf :K ;
+     rdfs:comment "Numismatics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KG
+:KG rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Asian Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KK
+:KK rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Greek Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KN
+:KN rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Roman Art" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KO
+:KO rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Classical Iconography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KP
+:KP rdf:type owl:Class ;
+    rdfs:subClassOf :K ;
+    rdfs:comment "Topography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#N
+:N rdf:type owl:Class ;
+   rdfs:subClassOf :Word ;
+   rdfs:comment "Transmission of Classical Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NA
+:NA rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Medieval and humanistic literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAB
+:NAB rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAC
+:NAC rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Transition from Middle Ages to Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAD
+:NAD rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "The Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAE
+:NAE rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAF
+:NAF rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "History of Classical Scholarship" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAG
+:NAG rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAH
+:NAH rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Greek Grammarians" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAI
+:NAI rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Classical Tradition. Middle Ages" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAK
+:NAK rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAL
+:NAL rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAM
+:NAM rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAN
+:NAN rdf:type owl:Class ;
+     rdfs:subClassOf :NA ;
+     rdfs:comment "Humanism. Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NB
+:NB rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Universities" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBA
+:NBA rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Academies & Research Institutes" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBB
+:NBB rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBC
+:NBC rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBD
+:NBD rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Netherlands & Belgium" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBE
+:NBE rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBF
+:NBF rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBG
+:NBG rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "The East" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBH
+:NBH rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBL
+:NBL rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBM
+:NBM rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Great Britain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBN
+:NBN rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBO
+:NBO rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Switzerland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBP
+:NBP rdf:type owl:Class ;
+     rdfs:subClassOf :NB ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NC
+:NC rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Bookprinting and Illustration" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCB
+:NCB rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCD
+:NCD rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Netherlands" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCE
+:NCE rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Germany, Austria, Switzerland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCF
+:NCF rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "The Printed Book" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCG
+:NCG rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCH
+:NCH rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Illustrated Bibles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCI
+:NCI rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Early Printing" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCK
+:NCK rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCL
+:NCL rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Spain, Portugal" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCM
+:NCM rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Great Britain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCN
+:NCN rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Printing, Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCP
+:NCP rdf:type owl:Class ;
+     rdfs:subClassOf :NC ;
+     rdfs:comment "Incunabula" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ND
+:ND rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Travel" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDB
+:NDB rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "South and East Asia; Western Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDC
+:NDC rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDE
+:NDE rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDF
+:NDF rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDG
+:NDG rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "South and East Asia; Western Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDK
+:NDK rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDM
+:NDM rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "Holland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDN
+:NDN rdf:type owl:Class ;
+     rdfs:subClassOf :ND ;
+     rdfs:comment "Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NE
+:NE rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Classical and Medieval Themes in Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEB
+:NEB rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Exempla & Moral Tales" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEC
+:NEC rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Romances of Chivalry" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NED
+:NED rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Animal & Plant Fables" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEF
+:NEF rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Folk Tales" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEG
+:NEG rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Theban Legend" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEH
+:NEH rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Mythographers" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEK
+:NEK rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Survival of Classical Myths" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEL
+:NEL rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Children's Books" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEO
+:NEO rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Riddles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEP
+:NEP rdf:type owl:Class ;
+     rdfs:subClassOf :NE ;
+     rdfs:comment "Roman Legend" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NF
+:NF rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Encyclopaedias" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFB
+:NFB rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Medieval" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFC
+:NFC rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Renaissance" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFF
+:NFF rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Studies. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFG
+:NFG rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Islamic" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFH
+:NFH rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Texts. Classical" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFI
+:NFI rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "World Chronicles" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFK
+:NFK rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Classical" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFM
+:NFM rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFN
+:NFN rdf:type owl:Class ;
+     rdfs:subClassOf :NF ;
+     rdfs:comment "De Viris Illustribus (studies)" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NH
+:NH rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Manuscripts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHA
+:NHA rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Palaeography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHB
+:NHB rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHC
+:NHC rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHD
+:NHD rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Netherlands" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHE
+:NHE rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHF
+:NHF rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Catalogues. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHG
+:NHG rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Hungary" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHK
+:NHK rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Scandinavia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHL
+:NHL rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHM
+:NHM rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Great Britain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHN
+:NHN rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHO
+:NHO rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Switzerland" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHP
+:NHP rdf:type owl:Class ;
+     rdfs:subClassOf :NH ;
+     rdfs:comment "Austria" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NI
+:NI rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Cultural Exchanges" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIB
+:NIB rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NID
+:NID rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "Low Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIE
+:NIE rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIF
+:NIF rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIG
+:NIG rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "East - West" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NII
+:NII rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "America" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIM
+:NIM rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIN
+:NIN rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "Mediterranean Countries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIP
+:NIP rdf:type owl:Class ;
+     rdfs:subClassOf :NI ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NK
+:NK rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Survival of Classical Literature" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKB
+:NKB rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKC
+:NKC rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Classical Forms" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKD
+:NKD rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Netherlands" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKE
+:NKE rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKF
+:NKF rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKG
+:NKG rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Eastern Europe" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKK
+:NKK rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Influence of Classical Authors" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKL
+:NKL rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKM
+:NKM rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKN
+:NKN rdf:type owl:Class ;
+     rdfs:subClassOf :NK ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NL
+:NL rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Pedagogics" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLA
+:NLA rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "Studies. History of Education" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLB
+:NLB rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "Medieval" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLC
+:NLC rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "Renaissance & Modern" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLF
+:NLF rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "History of Schools. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLH
+:NLH rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "History of Education" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLK
+:NLK rdf:type owl:Class ;
+     rdfs:subClassOf :NL ;
+     rdfs:comment "Ancient" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NM
+:NM rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "History of Libraries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMA
+:NMA rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMB
+:NMB rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "Medieval Libraries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMC
+:NMC rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "Humanistic Libraries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMF
+:NMF rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "History of Libraries. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMK
+:NMK rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "Ancient Libraries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMM
+:NMM rdf:type owl:Class ;
+     rdfs:subClassOf :NM ;
+     rdfs:comment "Modern Libraries" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NO
+:NO rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "Pictorial Symbols" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOA
+:NOA rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Pictorial Symbols" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOB
+:NOB rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "France" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOC
+:NOC rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Album Amicorum" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOD
+:NOD rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Belgium" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOE
+:NOE rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Germany" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOF
+:NOF rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Heraldry. General" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOG
+:NOG rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Asia" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOH
+:NOH rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Pictorial Symbols: Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOI
+:NOI rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Seals" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOL
+:NOL rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Spain" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOM
+:NOM rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "England" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NON
+:NON rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Italy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOP
+:NOP rdf:type owl:Class ;
+     rdfs:subClassOf :NO ;
+     rdfs:comment "Postage Stamps" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NP
+:NP rdf:type owl:Class ;
+    rdfs:subClassOf :N ;
+    rdfs:comment "History of the Book" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPC
+:NPC rdf:type owl:Class ;
+     rdfs:subClassOf :NP ;
+     rdfs:comment "Bibliophiles. Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPD
+:NPD rdf:type owl:Class ;
+     rdfs:subClassOf :NP ;
+     rdfs:comment "History of the Book Trade" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPF
+:NPF rdf:type owl:Class ;
+     rdfs:subClassOf :NP ;
+     rdfs:comment "History of Book-Making" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPH
+:NPH rdf:type owl:Class ;
+     rdfs:subClassOf :NP ;
+     rdfs:comment "Bibliophiles. Texts" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Orientation
+:Orientation rdf:type owl:Class ;
+             rdfs:comment "3rd and 4th Floor" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#P
+:P rdf:type owl:Class ;
+   rdfs:subClassOf :Periodicals ;
+   rdfs:comment "Periodicals" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PA
+:PA rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "General - Academies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PB
+:PB rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Psychology, Anthropology & Folkore" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PC
+:PC rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Religion" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PD
+:PD rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Magic & Science" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PE
+:PE rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Philosophy" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PF
+:PF rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Philology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PG
+:PG rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Education & Bibliography" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PH
+:PH rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Archaeology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PI
+:PI rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Art History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PK
+:PK rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "History" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PL
+:PL rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Sociology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PM
+:PM rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Music & Theatre" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PN
+:PN rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Oriental Studies" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PO
+:PO rdf:type owl:Class ;
+    rdfs:subClassOf :P ;
+    rdfs:comment "Oriental Art & Archaeology" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Periodicals
+:Periodicals rdf:type owl:Class ;
+             rdfs:comment "Basement" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#RR
+:RR rdf:type owl:Class ;
+    rdfs:subClassOf :Periodicals ;
+    rdfs:comment "Reference Works" .
+
+
+###  http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Word
+:Word rdf:type owl:Class ;
+      rdfs:comment "2nd Floor" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

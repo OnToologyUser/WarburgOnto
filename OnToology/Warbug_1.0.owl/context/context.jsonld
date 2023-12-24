@@ -1,0 +1,2599 @@
+{
+  "@context" : {
+    "DHA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHA"
+    },
+    "GKE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKE"
+    },
+    "ECM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECM"
+    },
+    "CR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CR"
+    },
+    "NMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMM"
+    },
+    "CEO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEO"
+    },
+    "EAC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAC"
+    },
+    "EAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAN"
+    },
+    "ELH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELH"
+    },
+    "ELM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELM"
+    },
+    "DN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DN"
+    },
+    "BFA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFA"
+    },
+    "GNK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNK"
+    },
+    "FAC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAC"
+    },
+    "CFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFF"
+    },
+    "FBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBH"
+    },
+    "AFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AFF"
+    },
+    "HG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HG"
+    },
+    "PE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PE"
+    },
+    "GAG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAG"
+    },
+    "NHC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHC"
+    },
+    "CMC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMC"
+    },
+    "GMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMF"
+    },
+    "EN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EN"
+    },
+    "CH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CH"
+    },
+    "DCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCB"
+    },
+    "HCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCB"
+    },
+    "FEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEH"
+    },
+    "K" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#K"
+    },
+    "HAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAN"
+    },
+    "NBP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBP"
+    },
+    "HGH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGH"
+    },
+    "NED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NED"
+    },
+    "CND" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CND"
+    },
+    "CNA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNA"
+    },
+    "FAG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAG"
+    },
+    "HNB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNB"
+    },
+    "NFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFF"
+    },
+    "FEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEF"
+    },
+    "GPE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPE"
+    },
+    "FB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FB"
+    },
+    "CK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CK"
+    },
+    "CLB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLB"
+    },
+    "NHK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHK"
+    },
+    "ABH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABH"
+    },
+    "HOH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOH"
+    },
+    "FI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FI"
+    },
+    "AMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMF"
+    },
+    "PI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PI"
+    },
+    "HEA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEA"
+    },
+    "DPD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPD"
+    },
+    "FFK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFK"
+    },
+    "FA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FA"
+    },
+    "CNM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNM"
+    },
+    "DBI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBI"
+    },
+    "EAB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAB"
+    },
+    "DEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEF"
+    },
+    "HPK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPK"
+    },
+    "NKN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKN"
+    },
+    "NOD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOD"
+    },
+    "CDA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDA"
+    },
+    "FEG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEG"
+    },
+    "DNB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNB"
+    },
+    "DBL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBL"
+    },
+    "CFM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFM"
+    },
+    "BEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BEF"
+    },
+    "NFI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFI"
+    },
+    "CDM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDM"
+    },
+    "CBP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBP"
+    },
+    "BCK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCK"
+    },
+    "NHB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHB"
+    },
+    "Orientation" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Orientation"
+    },
+    "FPA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPA"
+    },
+    "HMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMF"
+    },
+    "DAA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAA"
+    },
+    "FGK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGK"
+    },
+    "KP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KP"
+    },
+    "AM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AM"
+    },
+    "GNH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNH"
+    },
+    "DPI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPI"
+    },
+    "FEC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEC"
+    },
+    "DMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMH"
+    },
+    "AME" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AME"
+    },
+    "DAC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAC"
+    },
+    "FG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FG"
+    },
+    "KO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KO"
+    },
+    "BK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BK"
+    },
+    "HLC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLC"
+    },
+    "FHO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHO"
+    },
+    "CFB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFB"
+    },
+    "GEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEH"
+    },
+    "NBL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBL"
+    },
+    "NMK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMK"
+    },
+    "CLF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLF"
+    },
+    "GLK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GLK"
+    },
+    "DPM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPM"
+    },
+    "HEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEH"
+    },
+    "KFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KFF"
+    },
+    "FNN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNN"
+    },
+    "DEN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEN"
+    },
+    "NEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEB"
+    },
+    "BMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMM"
+    },
+    "EFL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFL"
+    },
+    "NKD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKD"
+    },
+    "NM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NM"
+    },
+    "HEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEB"
+    },
+    "CGH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGH"
+    },
+    "FBD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBD"
+    },
+    "EEM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEM"
+    },
+    "CBD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBD"
+    },
+    "CLO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLO"
+    },
+    "EAE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAE"
+    },
+    "NIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIF"
+    },
+    "NBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBF"
+    },
+    "KK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KK"
+    },
+    "EKH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKH"
+    },
+    "HPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPH"
+    },
+    "DEG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEG"
+    },
+    "KF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KF"
+    },
+    "CFN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFN"
+    },
+    "CG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CG"
+    },
+    "FMA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMA"
+    },
+    "DP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DP"
+    },
+    "FE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FE"
+    },
+    "NF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NF"
+    },
+    "HBC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBC"
+    },
+    "GPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPH"
+    },
+    "HMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMM"
+    },
+    "CCM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCM"
+    },
+    "HO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HO"
+    },
+    "DEA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEA"
+    },
+    "GM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GM"
+    },
+    "AMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMH"
+    },
+    "NEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEH"
+    },
+    "BCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCB"
+    },
+    "CMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMM"
+    },
+    "DKA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKA"
+    },
+    "CCN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCN"
+    },
+    "GDC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDC"
+    },
+    "FH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FH"
+    },
+    "NE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NE"
+    },
+    "NIE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIE"
+    },
+    "AK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AK"
+    },
+    "CED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CED"
+    },
+    "DEE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEE"
+    },
+    "AMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AMM"
+    },
+    "DBA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBA"
+    },
+    "HAD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAD"
+    },
+    "DL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DL"
+    },
+    "BKB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKB"
+    },
+    "HNO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNO"
+    },
+    "CD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CD"
+    },
+    "DK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DK"
+    },
+    "CKR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKR"
+    },
+    "CHN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHN"
+    },
+    "DLP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLP"
+    },
+    "CMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMF"
+    },
+    "DGI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGI"
+    },
+    "BMI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMI"
+    },
+    "BFC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFC"
+    },
+    "HAK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAK"
+    },
+    "CRI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRI"
+    },
+    "EKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKF"
+    },
+    "CHG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHG"
+    },
+    "DHD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHD"
+    },
+    "FER" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FER"
+    },
+    "CAI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAI"
+    },
+    "HGP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGP"
+    },
+    "EB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EB"
+    },
+    "BCG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCG"
+    },
+    "HOC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOC"
+    },
+    "ENF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENF"
+    },
+    "NBG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBG"
+    },
+    "NH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NH"
+    },
+    "NPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPH"
+    },
+    "KD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KD"
+    },
+    "BFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFF"
+    },
+    "CGD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGD"
+    },
+    "EPL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EPL"
+    },
+    "GEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEK"
+    },
+    "HPE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPE"
+    },
+    "FNI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNI"
+    },
+    "CFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFH"
+    },
+    "DCI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCI"
+    },
+    "DFK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFK"
+    },
+    "EAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAF"
+    },
+    "FD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FD"
+    },
+    "HNE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNE"
+    },
+    "FOF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOF"
+    },
+    "ECL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECL"
+    },
+    "HF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HF"
+    },
+    "EMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMM"
+    },
+    "NHN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHN"
+    },
+    "NFK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFK"
+    },
+    "BCP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCP"
+    },
+    "DEC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEC"
+    },
+    "NHD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHD"
+    },
+    "DNG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNG"
+    },
+    "CPC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPC"
+    },
+    "DDD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DDD"
+    },
+    "CMO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMO"
+    },
+    "NLB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLB"
+    },
+    "CDN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDN"
+    },
+    "HAL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAL"
+    },
+    "AKH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKH"
+    },
+    "CRA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRA"
+    },
+    "FAI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAI"
+    },
+    "CNH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNH"
+    },
+    "GMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMB"
+    },
+    "CCI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCI"
+    },
+    "CI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CI"
+    },
+    "CEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEK"
+    },
+    "NFN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFN"
+    },
+    "CCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCH"
+    },
+    "GKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKF"
+    },
+    "GKH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKH"
+    },
+    "FGF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGF"
+    },
+    "CRG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRG"
+    },
+    "NOG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOG"
+    },
+    "EAD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAD"
+    },
+    "NAC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAC"
+    },
+    "HGB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGB"
+    },
+    "CLL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLL"
+    },
+    "NOB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOB"
+    },
+    "ELC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELC"
+    },
+    "NDF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDF"
+    },
+    "CGO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGO"
+    },
+    "HNF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNF"
+    },
+    "FGB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGB"
+    },
+    "DIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIF"
+    },
+    "GMK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMK"
+    },
+    "EPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EPH"
+    },
+    "BCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCH"
+    },
+    "CRR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRR"
+    },
+    "FHP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHP"
+    },
+    "ACB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACB"
+    },
+    "NID" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NID"
+    },
+    "G" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#G"
+    },
+    "CGI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGI"
+    },
+    "DHI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHI"
+    },
+    "FF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FF"
+    },
+    "FME" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FME"
+    },
+    "DPL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPL"
+    },
+    "NCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCB"
+    },
+    "HNI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNI"
+    },
+    "NDM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDM"
+    },
+    "AC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AC"
+    },
+    "CPO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPO"
+    },
+    "CRO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRO"
+    },
+    "HKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKF"
+    },
+    "CEE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEE"
+    },
+    "GA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GA"
+    },
+    "FEA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEA"
+    },
+    "DCK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCK"
+    },
+    "HMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMH"
+    },
+    "DB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DB"
+    },
+    "NHE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHE"
+    },
+    "DF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DF"
+    },
+    "DIE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIE"
+    },
+    "DG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DG"
+    },
+    "HLF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLF"
+    },
+    "CRP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRP"
+    },
+    "NKG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKG"
+    },
+    "DCL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCL"
+    },
+    "BCA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCA"
+    },
+    "NIB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIB"
+    },
+    "FNC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNC"
+    },
+    "GC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GC"
+    },
+    "EEI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEI"
+    },
+    "FCD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCD"
+    },
+    "FHH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHH"
+    },
+    "CPP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPP"
+    },
+    "FBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBM"
+    },
+    "NP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NP"
+    },
+    "ABA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABA"
+    },
+    "HCM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCM"
+    },
+    "DCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCH"
+    },
+    "EMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMH"
+    },
+    "NDE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDE"
+    },
+    "EDH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDH"
+    },
+    "DBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBF"
+    },
+    "FFM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFM"
+    },
+    "CHB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHB"
+    },
+    "NDN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDN"
+    },
+    "PK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PK"
+    },
+    "NCG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCG"
+    },
+    "NEC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEC"
+    },
+    "DBC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBC"
+    },
+    "NDB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDB"
+    },
+    "CBA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBA"
+    },
+    "PF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PF"
+    },
+    "BM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BM"
+    },
+    "NAG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAG"
+    },
+    "NBA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBA"
+    },
+    "HLP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLP"
+    },
+    "Periodicals" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Periodicals"
+    },
+    "NB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NB"
+    },
+    "EL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EL"
+    },
+    "CDP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDP"
+    },
+    "CRK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRK"
+    },
+    "EFM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFM"
+    },
+    "EK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EK"
+    },
+    "NAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAF"
+    },
+    "HAM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAM"
+    },
+    "DND" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DND"
+    },
+    "AAH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AAH"
+    },
+    "DFC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFC"
+    },
+    "BML" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BML"
+    },
+    "NHF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHF"
+    },
+    "FEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEK"
+    },
+    "BKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKF"
+    },
+    "ELL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELL"
+    },
+    "CKK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKK"
+    },
+    "ABB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABB"
+    },
+    "FGH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGH"
+    },
+    "FIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FIF"
+    },
+    "FBR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBR"
+    },
+    "GKC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKC"
+    },
+    "DPF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPF"
+    },
+    "CBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBF"
+    },
+    "CRF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRF"
+    },
+    "HRF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRF"
+    },
+    "CHK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHK"
+    },
+    "CPI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPI"
+    },
+    "DFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFF"
+    },
+    "DPE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPE"
+    },
+    "ENC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENC"
+    },
+    "CAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAN"
+    },
+    "PN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PN"
+    },
+    "DHO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHO"
+    },
+    "GDB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDB"
+    },
+    "HEM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEM"
+    },
+    "DHP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHP"
+    },
+    "H" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#H"
+    },
+    "DKC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKC"
+    },
+    "HFM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFM"
+    },
+    "CPG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPG"
+    },
+    "EGH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EGH"
+    },
+    "FMN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMN"
+    },
+    "CDB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDB"
+    },
+    "GKA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKA"
+    },
+    "CGC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGC"
+    },
+    "AGH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AGH"
+    },
+    "DNH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNH"
+    },
+    "HEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEF"
+    },
+    "NAE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAE"
+    },
+    "HKN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKN"
+    },
+    "DED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DED"
+    },
+    "EKL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKL"
+    },
+    "GPF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GPF"
+    },
+    "FHI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHI"
+    },
+    "CBO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBO"
+    },
+    "DEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEK"
+    },
+    "HNN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNN"
+    },
+    "EDL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDL"
+    },
+    "CFC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFC"
+    },
+    "DEO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEO"
+    },
+    "FDB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDB"
+    },
+    "ACL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACL"
+    },
+    "HPM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPM"
+    },
+    "COK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COK"
+    },
+    "NHA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHA"
+    },
+    "HB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HB"
+    },
+    "FBC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBC"
+    },
+    "FNK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNK"
+    },
+    "GME" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GME"
+    },
+    "FBN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBN"
+    },
+    "HRM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRM"
+    },
+    "CF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CF"
+    },
+    "PA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PA"
+    },
+    "CIO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIO"
+    },
+    "NAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAN"
+    },
+    "CRN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRN"
+    },
+    "CGL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGL"
+    },
+    "CFA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFA"
+    },
+    "CEP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEP"
+    },
+    "CKP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKP"
+    },
+    "NKB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKB"
+    },
+    "FPP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPP"
+    },
+    "AF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AF"
+    },
+    "FBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBB"
+    },
+    "CPA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPA"
+    },
+    "DBE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBE"
+    },
+    "NAL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAL"
+    },
+    "CM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CM"
+    },
+    "FCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCH"
+    },
+    "BCF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCF"
+    },
+    "HOP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOP"
+    },
+    "EEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEF"
+    },
+    "E" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#E"
+    },
+    "DD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DD"
+    },
+    "CPK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPK"
+    },
+    "NCD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCD"
+    },
+    "HNH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNH"
+    },
+    "FMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMF"
+    },
+    "CHM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHM"
+    },
+    "FOM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOM"
+    },
+    "HMC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMC"
+    },
+    "FAM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAM"
+    },
+    "HAH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAH"
+    },
+    "HNA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNA"
+    },
+    "C" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#C"
+    },
+    "GMN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMN"
+    },
+    "HAP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAP"
+    },
+    "ENI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENI"
+    },
+    "EP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EP"
+    },
+    "CFO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFO"
+    },
+    "GDH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDH"
+    },
+    "FNA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNA"
+    },
+    "CIH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIH"
+    },
+    "NDG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDG"
+    },
+    "NLF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLF"
+    },
+    "CPB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPB"
+    },
+    "CDD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDD"
+    },
+    "FOH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOH"
+    },
+    "DEL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEL"
+    },
+    "FMI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMI"
+    },
+    "DKD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKD"
+    },
+    "F" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#F"
+    },
+    "HIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HIF"
+    },
+    "GKD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKD"
+    },
+    "FFG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFG"
+    },
+    "CKC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKC"
+    },
+    "FAK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAK"
+    },
+    "BC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BC"
+    },
+    "FBE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBE"
+    },
+    "DMI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMI"
+    },
+    "BME" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BME"
+    },
+    "FPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPH"
+    },
+    "COC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COC"
+    },
+    "NEO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEO"
+    },
+    "NKK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKK"
+    },
+    "HEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEK"
+    },
+    "KEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KEF"
+    },
+    "FMO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMO"
+    },
+    "HFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFH"
+    },
+    "NCN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCN"
+    },
+    "ACN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACN"
+    },
+    "HNP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNP"
+    },
+    "NPF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPF"
+    },
+    "NMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMB"
+    },
+    "DKK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DKK"
+    },
+    "CGK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGK"
+    },
+    "DCD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCD"
+    },
+    "CN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CN"
+    },
+    "FGG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGG"
+    },
+    "DC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DC"
+    },
+    "FM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FM"
+    },
+    "DNF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNF"
+    },
+    "NKC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKC"
+    },
+    "ABG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ABG"
+    },
+    "HCC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCC"
+    },
+    "GML" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GML"
+    },
+    "DMD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMD"
+    },
+    "B" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#B"
+    },
+    "FFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFF"
+    },
+    "CC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CC"
+    },
+    "CGB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGB"
+    },
+    "CEN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEN"
+    },
+    "NFB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFB"
+    },
+    "HBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBB"
+    },
+    "HFP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFP"
+    },
+    "EIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EIF"
+    },
+    "ELB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELB"
+    },
+    "HDF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDF"
+    },
+    "CLM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLM"
+    },
+    "DGP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGP"
+    },
+    "DBG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBG"
+    },
+    "CPL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPL"
+    },
+    "AKA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKA"
+    },
+    "BMA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMA"
+    },
+    "DPK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPK"
+    },
+    "BCI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCI"
+    },
+    "DCM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCM"
+    },
+    "AAI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AAI"
+    },
+    "NAK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAK"
+    },
+    "NBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBH"
+    },
+    "CE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CE"
+    },
+    "ECH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ECH"
+    },
+    "NLA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLA"
+    },
+    "NAM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAM"
+    },
+    "NHP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHP"
+    },
+    "FAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAF"
+    },
+    "ACH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACH"
+    },
+    "DHC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHC"
+    },
+    "HNG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNG"
+    },
+    "NBC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBC"
+    },
+    "CNL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNL"
+    },
+    "DEI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEI"
+    },
+    "NPD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPD"
+    },
+    "HPD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HPD"
+    },
+    "PH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PH"
+    },
+    "FBA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBA"
+    },
+    "CHI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHI"
+    },
+    "EFB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFB"
+    },
+    "CKD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKD"
+    },
+    "FBI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBI"
+    },
+    "DEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEB"
+    },
+    "NFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFH"
+    },
+    "COF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COF"
+    },
+    "AFI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AFI"
+    },
+    "GAH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAH"
+    },
+    "HMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMB"
+    },
+    "HKD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKD"
+    },
+    "HND" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HND"
+    },
+    "NOE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOE"
+    },
+    "EEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEB"
+    },
+    "NDK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDK"
+    },
+    "AD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AD"
+    },
+    "CAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAF"
+    },
+    "DPA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPA"
+    },
+    "CPE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPE"
+    },
+    "PC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PC"
+    },
+    "DNK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNK"
+    },
+    "DM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DM"
+    },
+    "NCK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCK"
+    },
+    "ELF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ELF"
+    },
+    "P" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#P"
+    },
+    "CP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CP"
+    },
+    "FBK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBK"
+    },
+    "DEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEH"
+    },
+    "DLI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLI"
+    },
+    "FAB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAB"
+    },
+    "DMA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMA"
+    },
+    "HE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HE"
+    },
+    "FC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FC"
+    },
+    "EMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMB"
+    },
+    "EFC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFC"
+    },
+    "COH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COH"
+    },
+    "CDF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDF"
+    },
+    "FP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FP"
+    },
+    "CMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMB"
+    },
+    "CGF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGF"
+    },
+    "NLK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLK"
+    },
+    "HNC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNC"
+    },
+    "HDH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDH"
+    },
+    "HAG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAG"
+    },
+    "HBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBF"
+    },
+    "FEN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEN"
+    },
+    "CGA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGA"
+    },
+    "EML" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EML"
+    },
+    "FEL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEL"
+    },
+    "CKA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKA"
+    },
+    "EEL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEL"
+    },
+    "NKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKF"
+    },
+    "NHG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHG"
+    },
+    "NEG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEG"
+    },
+    "NEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEF"
+    },
+    "CA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CA"
+    },
+    "FEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEB"
+    },
+    "CDL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDL"
+    },
+    "GCK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCK"
+    },
+    "CBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBB"
+    },
+    "NPC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NPC"
+    },
+    "CB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CB"
+    },
+    "DGO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGO"
+    },
+    "CGE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGE"
+    },
+    "DII" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DII"
+    },
+    "NOM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOM"
+    },
+    "GNB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GNB"
+    },
+    "GP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GP"
+    },
+    "HKE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKE"
+    },
+    "CNB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNB"
+    },
+    "HDC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HDC"
+    },
+    "FEI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEI"
+    },
+    "HN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HN"
+    },
+    "BKG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BKG"
+    },
+    "NAI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAI"
+    },
+    "CKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKF"
+    },
+    "CPF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPF"
+    },
+    "CEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEB"
+    },
+    "NCL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCL"
+    },
+    "HD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HD"
+    },
+    "DE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DE"
+    },
+    "HBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBH"
+    },
+    "CNN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNN"
+    },
+    "GLH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GLH"
+    },
+    "DFG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFG"
+    },
+    "FFB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFB"
+    },
+    "FBG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBG"
+    },
+    "HCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCH"
+    },
+    "DID" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DID"
+    },
+    "NOI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOI"
+    },
+    "DBK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBK"
+    },
+    "DPH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPH"
+    },
+    "CNI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNI"
+    },
+    "DLC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLC"
+    },
+    "EC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EC"
+    },
+    "AA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AA"
+    },
+    "EKG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKG"
+    },
+    "FBP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBP"
+    },
+    "NO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NO"
+    },
+    "CAC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAC"
+    },
+    "GEB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GEB"
+    },
+    "HL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HL"
+    },
+    "ACE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACE"
+    },
+    "GDG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDG"
+    },
+    "NOC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOC"
+    },
+    "DIG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIG"
+    },
+    "NBE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBE"
+    },
+    "FAH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAH"
+    },
+    "NCI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCI"
+    },
+    "ND" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ND"
+    },
+    "GCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCB"
+    },
+    "NLC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLC"
+    },
+    "CAD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAD"
+    },
+    "DA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DA"
+    },
+    "BMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMF"
+    },
+    "EAA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAA"
+    },
+    "AG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AG"
+    },
+    "DIM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIM"
+    },
+    "DAD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAD"
+    },
+    "CLN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLN"
+    },
+    "NOA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOA"
+    },
+    "HKH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKH"
+    },
+    "BE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BE"
+    },
+    "BCL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCL"
+    },
+    "EKK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKK"
+    },
+    "CRD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRD"
+    },
+    "CCP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCP"
+    },
+    "Word" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Word"
+    },
+    "CEA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEA"
+    },
+    "CIC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIC"
+    },
+    "NFC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFC"
+    },
+    "PO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PO"
+    },
+    "DLL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLL"
+    },
+    "NMA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMA"
+    },
+    "PD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PD"
+    },
+    "HAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAF"
+    },
+    "CL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CL"
+    },
+    "DBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBH"
+    },
+    "GKP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKP"
+    },
+    "CIK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIK"
+    },
+    "N" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#N"
+    },
+    "DPC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPC"
+    },
+    "FNH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNH"
+    },
+    "DHF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DHF"
+    },
+    "BMN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMN"
+    },
+    "NII" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NII"
+    },
+    "NL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NL"
+    },
+    "FN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FN"
+    },
+    "CKN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKN"
+    },
+    "HEC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HEC"
+    },
+    "EG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EG"
+    },
+    "NCP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCP"
+    },
+    "DPP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPP"
+    },
+    "NAH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAH"
+    },
+    "CEF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEF"
+    },
+    "FO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FO"
+    },
+    "PB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PB"
+    },
+    "DLG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLG"
+    },
+    "DCE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCE"
+    },
+    "A" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#A"
+    },
+    "NFG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFG"
+    },
+    "DAF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAF"
+    },
+    "GMM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMM"
+    },
+    "EE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EE"
+    },
+    "HRB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRB"
+    },
+    "NIG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIG"
+    },
+    "CRM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRM"
+    },
+    "FDD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDD"
+    },
+    "DPG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPG"
+    },
+    "EBC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBC"
+    },
+    "HOF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOF"
+    },
+    "EKP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EKP"
+    },
+    "CDE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDE"
+    },
+    "CMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMH"
+    },
+    "NEL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEL"
+    },
+    "NIN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIN"
+    },
+    "KN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KN"
+    },
+    "NCF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCF"
+    },
+    "CRE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRE"
+    },
+    "CHP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHP"
+    },
+    "HMP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HMP"
+    },
+    "NI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NI"
+    },
+    "DPB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPB"
+    },
+    "HLH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLH"
+    },
+    "GMG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GMG"
+    },
+    "PG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PG"
+    },
+    "DLN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLN"
+    },
+    "HAE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAE"
+    },
+    "DEM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEM"
+    },
+    "CBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBH"
+    },
+    "CHL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHL"
+    },
+    "HC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HC"
+    },
+    "DFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DFH"
+    },
+    "BFD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFD"
+    },
+    "NHM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHM"
+    },
+    "CAO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CAO"
+    },
+    "DBD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBD"
+    },
+    "NOH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOH"
+    },
+    "CHH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHH"
+    },
+    "RR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#RR"
+    },
+    "CKO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CKO"
+    },
+    "EM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EM"
+    },
+    "CIM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIM"
+    },
+    "ED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ED"
+    },
+    "NAB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAB"
+    },
+    "NK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NK"
+    },
+    "EDD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EDD"
+    },
+    "KG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#KG"
+    },
+    "CFP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFP"
+    },
+    "CBN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBN"
+    },
+    "DEP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DEP"
+    },
+    "HNL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNL"
+    },
+    "COD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#COD"
+    },
+    "NCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCH"
+    },
+    "GDK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDK"
+    },
+    "FAA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAA"
+    },
+    "HA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HA"
+    },
+    "HLB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HLB"
+    },
+    "DBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBB"
+    },
+    "DIC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DIC"
+    },
+    "HP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HP"
+    },
+    "FBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FBF"
+    },
+    "NC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NC"
+    },
+    "NIP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIP"
+    },
+    "EFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFF"
+    },
+    "CEL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEL"
+    },
+    "DCA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCA"
+    },
+    "NOP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOP"
+    },
+    "NEK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEK"
+    },
+    "FEO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEO"
+    },
+    "DMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMF"
+    },
+    "EBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBM"
+    },
+    "FHB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FHB"
+    },
+    "CCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCB"
+    },
+    "CMD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CMD"
+    },
+    "DBP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBP"
+    },
+    "EBH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBH"
+    },
+    "CIB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIB"
+    },
+    "FIH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FIH"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "CLD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLD"
+    },
+    "AB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AB"
+    },
+    "EEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEH"
+    },
+    "BF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BF"
+    },
+    "Image" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Image"
+    },
+    "HOB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HOB"
+    },
+    "DGF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DGF"
+    },
+    "NFM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NFM"
+    },
+    "NOL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOL"
+    },
+    "HAB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HAB"
+    },
+    "NBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBB"
+    },
+    "NBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBM"
+    },
+    "NHL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHL"
+    },
+    "NHO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NHO"
+    },
+    "CCF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCF"
+    },
+    "NKE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKE"
+    },
+    "DNC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNC"
+    },
+    "FNG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNG"
+    },
+    "CML" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CML"
+    },
+    "CRC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRC"
+    },
+    "FOB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOB"
+    },
+    "GD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GD"
+    },
+    "NLH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NLH"
+    },
+    "EBL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBL"
+    },
+    "HCL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCL"
+    },
+    "EBB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBB"
+    },
+    "NDC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NDC"
+    },
+    "BMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMH"
+    },
+    "CFI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CFI"
+    },
+    "CDH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CDH"
+    },
+    "CPM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPM"
+    },
+    "DAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DAN"
+    },
+    "CCG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CCG"
+    },
+    "FEM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEM"
+    },
+    "FGD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGD"
+    },
+    "BCE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCE"
+    },
+    "CPN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CPN"
+    },
+    "HBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBM"
+    },
+    "DH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DH"
+    },
+    "FEP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEP"
+    },
+    "EMD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMD"
+    },
+    "HFF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HFF"
+    },
+    "FCB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FCB"
+    },
+    "CRL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRL"
+    },
+    "DMC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DMC"
+    },
+    "DCN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DCN"
+    },
+    "CBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBM"
+    },
+    "FAN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FAN"
+    },
+    "DI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DI"
+    },
+    "CLP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLP"
+    },
+    "ENH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENH"
+    },
+    "EF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EF"
+    },
+    "DDF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DDF"
+    },
+    "GDL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GDL"
+    },
+    "HGK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HGK"
+    },
+    "FFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FFH"
+    },
+    "NBO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBO"
+    },
+    "NON" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NON"
+    },
+    "CNF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CNF"
+    },
+    "FGM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FGM"
+    },
+    "BEE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BEE"
+    },
+    "ACM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ACM"
+    },
+    "Action" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#Action"
+    },
+    "BFR" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BFR"
+    },
+    "FPI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FPI"
+    },
+    "GIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GIF"
+    },
+    "HED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HED"
+    },
+    "HCF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCF"
+    },
+    "AKF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#AKF"
+    },
+    "NMC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMC"
+    },
+    "HK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HK"
+    },
+    "NCM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCM"
+    },
+    "ENB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENB"
+    },
+    "BCD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCD"
+    },
+    "GAK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAK"
+    },
+    "EMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMF"
+    },
+    "BCC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BCC"
+    },
+    "FMH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FMH"
+    },
+    "CO" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CO"
+    },
+    "NKL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKL"
+    },
+    "CBE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CBE"
+    },
+    "CGN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CGN"
+    },
+    "EMC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EMC"
+    },
+    "FON" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FON"
+    },
+    "NKM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NKM"
+    },
+    "DNM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DNM"
+    },
+    "HRL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HRL"
+    },
+    "CHE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHE"
+    },
+    "D" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#D"
+    },
+    "EFH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EFH"
+    },
+    "CLA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLA"
+    },
+    "HI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HI"
+    },
+    "FEE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FEE"
+    },
+    "ADH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ADH"
+    },
+    "NMF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NMF"
+    },
+    "HCP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HCP"
+    },
+    "DLF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DLF"
+    },
+    "FNF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FNF"
+    },
+    "CEH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CEH"
+    },
+    "NEP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NEP"
+    },
+    "DBN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBN"
+    },
+    "NBD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBD"
+    },
+    "HM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HM"
+    },
+    "DBM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DBM"
+    },
+    "ENM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#ENM"
+    },
+    "PM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PM"
+    },
+    "EBF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EBF"
+    },
+    "CLH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CLH"
+    },
+    "FED" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FED"
+    },
+    "FDH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FDH"
+    },
+    "CRB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CRB"
+    },
+    "HNM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HNM"
+    },
+    "EAL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EAL"
+    },
+    "NCE" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NCE"
+    },
+    "NOF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NOF"
+    },
+    "NAD" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NAD"
+    },
+    "NIM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NIM"
+    },
+    "HKK" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKK"
+    },
+    "HBP" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HBP"
+    },
+    "DPN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#DPN"
+    },
+    "FOG" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#FOG"
+    },
+    "HKM" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#HKM"
+    },
+    "GCH" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GCH"
+    },
+    "NBN" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NBN"
+    },
+    "CIF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CIF"
+    },
+    "GKI" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GKI"
+    },
+    "EEC" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#EEC"
+    },
+    "NA" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#NA"
+    },
+    "GAB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#GAB"
+    },
+    "BMB" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#BMB"
+    },
+    "CHF" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#CHF"
+    },
+    "PL" : {
+      "@id" : "http://www.semanticweb.org/jackkausch/ontologies/2023/6/untitled-ontology-73#PL"
+    }
+  }
+}
